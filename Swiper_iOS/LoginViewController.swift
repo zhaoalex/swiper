@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 import FirebaseAuthUI
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
     }
