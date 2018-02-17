@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1517B8042038D2CC00159223 /* Swiper_iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swiper_iOS.entitlements; sourceTree = "<group>"; };
 		6B417DBE2038B36E00ACE692 /* Swiper_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiper_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B417DC12038B36E00ACE692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B417DC32038B36E00ACE692 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +62,7 @@
 		6B417DC02038B36E00ACE692 /* Swiper_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				1517B8042038D2CC00159223 /* Swiper_iOS.entitlements */,
 				6B417DC12038B36E00ACE692 /* AppDelegate.swift */,
 				6B417DC32038B36E00ACE692 /* ViewController.swift */,
 				6B417DC52038B36E00ACE692 /* Main.storyboard */,
@@ -124,6 +126,11 @@
 					6B417DBD2038B36E00ACE692 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -373,6 +380,7 @@
 			baseConfigurationReference = D4D40415E40FE962BF7FABB2 /* Pods-Swiper_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Swiper_iOS/Swiper_iOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UC94C8X542;
 				INFOPLIST_FILE = Swiper_iOS/Info.plist;
@@ -389,6 +397,7 @@
 			baseConfigurationReference = AB557FD65070E6B33DB14BF1 /* Pods-Swiper_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Swiper_iOS/Swiper_iOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UC94C8X542;
 				INFOPLIST_FILE = Swiper_iOS/Info.plist;
