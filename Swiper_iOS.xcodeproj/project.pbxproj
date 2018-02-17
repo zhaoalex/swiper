@@ -13,6 +13,7 @@
 		6B417DC72038B36E00ACE692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B417DC52038B36E00ACE692 /* Main.storyboard */; };
 		6B417DC92038B36E00ACE692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B417DC82038B36E00ACE692 /* Assets.xcassets */; };
 		6B417DCC2038B36E00ACE692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B417DCA2038B36E00ACE692 /* LaunchScreen.storyboard */; };
+		6BAF6CC62038D76000F6C10C /* ListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAF6CC52038D76000F6C10C /* ListingTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6B417DC82038B36E00ACE692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B417DCB2038B36E00ACE692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B417DCD2038B36E00ACE692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BAF6CC52038D76000F6C10C /* ListingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListingTableViewCell.swift; path = /Users/yuanpingsong/Desktop/swiper/Swiper_iOS/ListingTableViewCell.swift; sourceTree = "<absolute>"; };
 		AB557FD65070E6B33DB14BF1 /* Pods-Swiper_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swiper_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swiper_iOS/Pods-Swiper_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		D4D40415E40FE962BF7FABB2 /* Pods-Swiper_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swiper_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swiper_iOS/Pods-Swiper_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DFBB5AFCF27FFA0BFE5C4DDC /* Pods_Swiper_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swiper_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				1517B8042038D2CC00159223 /* Swiper_iOS.entitlements */,
+				6BAF6CC52038D76000F6C10C /* ListingTableViewCell.swift */,
 				6B417DC12038B36E00ACE692 /* AppDelegate.swift */,
 				6B417DC32038B36E00ACE692 /* ViewController.swift */,
 				6B417DC52038B36E00ACE692 /* Main.storyboard */,
@@ -241,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BAF6CC62038D76000F6C10C /* ListingTableViewCell.swift in Sources */,
 				6B417DC42038B36E00ACE692 /* ViewController.swift in Sources */,
 				6B417DC22038B36E00ACE692 /* AppDelegate.swift in Sources */,
 			);

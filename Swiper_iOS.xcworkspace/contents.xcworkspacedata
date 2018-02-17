@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/yuanpingsong/Desktop/swiper/Swiper_iOS/ListingTableViewCell.swift">
+   </FileRef>
+   <FileRef
       location = "group:Swiper_iOS.xcodeproj">
    </FileRef>
    <FileRef
