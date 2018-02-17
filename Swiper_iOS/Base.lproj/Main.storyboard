@@ -18,14 +18,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="aVe-PN-ZRc">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="aVe-PN-ZRc">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ycY-Fh-wxZ">
-                                <rect key="frame" x="83" y="330" width="209" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ycY-Fh-wxZ">
+                                <rect key="frame" x="83" y="369" width="209" height="48"/>
                                 <color key="backgroundColor" red="0.15122209415401422" green="0.48716795067531826" blue="1" alpha="0.3534353595890411" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="XPu-UN-x1Z"/>
+                                </constraints>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="Facebook Logon">
@@ -37,9 +38,8 @@
                                     </attributedString>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P7f-Vx-Icw">
-                                <rect key="frame" x="93" y="454" width="189" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P7f-Vx-Icw">
+                                <rect key="frame" x="93" y="425" width="189" height="46"/>
                                 <color key="backgroundColor" red="0.70481043781725894" green="0.38430156328144277" blue="0.31178345933895785" alpha="0.44242294520547948" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -52,10 +52,12 @@
                                     </attributedString>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxA-yW-OQL">
-                                <rect key="frame" x="44" y="165" width="286" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxA-yW-OQL">
+                                <rect key="frame" x="44" y="161" width="286" height="69"/>
                                 <color key="backgroundColor" red="0.75294117650000003" green="0.87058823529999996" blue="0.92941176469999998" alpha="0.37459867294520549" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="tzQ-qK-Lzt"/>
+                                </constraints>
                                 <attributedString key="attributedText">
                                     <fragment content="Swiper">
                                         <attributes>
@@ -71,6 +73,19 @@
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.69742492352065444" blue="0.81170685279187815" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ycY-Fh-wxZ" secondAttribute="bottom" constant="250" id="0ru-oE-Pj4"/>
+                            <constraint firstItem="vxA-yW-OQL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="4U4-q2-IpC"/>
+                            <constraint firstItem="ycY-Fh-wxZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="83" id="FAp-bg-oVs"/>
+                            <constraint firstItem="P7f-Vx-Icw" firstAttribute="top" secondItem="ycY-Fh-wxZ" secondAttribute="bottom" constant="8" symbolic="YES" id="GTp-sU-aLQ"/>
+                            <constraint firstItem="P7f-Vx-Icw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="93" id="XnX-py-ckV"/>
+                            <constraint firstItem="vxA-yW-OQL" firstAttribute="centerX" secondItem="aVe-PN-ZRc" secondAttribute="centerX" id="YPb-fw-zW9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="P7f-Vx-Icw" secondAttribute="bottom" constant="196" id="izn-sG-ybI"/>
+                            <constraint firstItem="vxA-yW-OQL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rkK-vj-wbr"/>
+                            <constraint firstItem="vxA-yW-OQL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="141" id="t0A-5J-FII"/>
+                            <constraint firstItem="P7f-Vx-Icw" firstAttribute="centerX" secondItem="ycY-Fh-wxZ" secondAttribute="centerX" id="tnQ-J8-fEk"/>
+                            <constraint firstItem="P7f-Vx-Icw" firstAttribute="centerX" secondItem="vxA-yW-OQL" secondAttribute="centerX" id="x5g-cs-d0d"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
