@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="aVe-PN-ZRc">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="aVe-PN-ZRc">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ycY-Fh-wxZ">
@@ -84,9 +84,12 @@
                             <constraint firstItem="vxA-yW-OQL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="4U4-q2-IpC"/>
                             <constraint firstItem="ycY-Fh-wxZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="83" id="FAp-bg-oVs"/>
                             <constraint firstItem="P7f-Vx-Icw" firstAttribute="top" secondItem="ycY-Fh-wxZ" secondAttribute="bottom" constant="8" symbolic="YES" id="GTp-sU-aLQ"/>
+                            <constraint firstItem="aVe-PN-ZRc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VDY-Ym-D7u"/>
                             <constraint firstItem="P7f-Vx-Icw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="93" id="XnX-py-ckV"/>
                             <constraint firstItem="vxA-yW-OQL" firstAttribute="centerX" secondItem="aVe-PN-ZRc" secondAttribute="centerX" id="YPb-fw-zW9"/>
+                            <constraint firstItem="aVe-PN-ZRc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Z5D-ol-iok"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="P7f-Vx-Icw" secondAttribute="bottom" constant="196" id="izn-sG-ybI"/>
+                            <constraint firstItem="aVe-PN-ZRc" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="kO3-aQ-b7K"/>
                             <constraint firstItem="vxA-yW-OQL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rkK-vj-wbr"/>
                             <constraint firstItem="vxA-yW-OQL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="141" id="t0A-5J-FII"/>
                             <constraint firstItem="P7f-Vx-Icw" firstAttribute="centerX" secondItem="ycY-Fh-wxZ" secondAttribute="centerX" id="tnQ-J8-fEk"/>
