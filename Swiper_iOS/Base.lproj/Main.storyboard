@@ -21,28 +21,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="aVe-PN-ZRc">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ycY-Fh-wxZ">
-                                <rect key="frame" x="83" y="369" width="209" height="48"/>
-                                <color key="backgroundColor" red="0.15122209415401422" green="0.48716795067531826" blue="1" alpha="0.3534353595890411" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="K1o-fz-Acl"/>
-                                </constraints>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Facebook Logon">
-                                            <attributes>
-                                                <color key="NSColor" white="1" alpha="0.78539704623287676" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <font key="NSFont" size="23" name="Arial-BoldMT"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <segue destination="rwB-MW-ldG" kind="presentation" id="ANQ-47-r1m"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P7f-Vx-Icw">
-                                <rect key="frame" x="93" y="425" width="189" height="46"/>
+                                <rect key="frame" x="93" y="433.5" width="189" height="37.5"/>
                                 <color key="backgroundColor" red="0.70481043781725894" green="0.38430156328144277" blue="0.31178345933895785" alpha="0.44242294520547948" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
@@ -80,11 +60,8 @@
                         <color key="backgroundColor" red="0.0" green="0.69742492352065444" blue="0.81170685279187815" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="ycY-Fh-wxZ" secondAttribute="bottom" constant="250" id="0ru-oE-Pj4"/>
                             <constraint firstItem="vxA-yW-OQL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="4U4-q2-IpC"/>
                             <constraint firstItem="aVe-PN-ZRc" firstAttribute="centerX" secondItem="vxA-yW-OQL" secondAttribute="centerX" id="6tR-2O-6Tm"/>
-                            <constraint firstItem="ycY-Fh-wxZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="83" id="FAp-bg-oVs"/>
-                            <constraint firstItem="P7f-Vx-Icw" firstAttribute="top" secondItem="ycY-Fh-wxZ" secondAttribute="bottom" constant="8" symbolic="YES" id="GTp-sU-aLQ"/>
                             <constraint firstItem="aVe-PN-ZRc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="H7f-Z4-aIQ"/>
                             <constraint firstItem="aVe-PN-ZRc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="IwS-jk-JLT"/>
                             <constraint firstItem="aVe-PN-ZRc" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="PYr-XT-jAb"/>
@@ -92,7 +69,6 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="P7f-Vx-Icw" secondAttribute="bottom" constant="196" id="izn-sG-ybI"/>
                             <constraint firstItem="vxA-yW-OQL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rkK-vj-wbr"/>
                             <constraint firstItem="vxA-yW-OQL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="141" id="t0A-5J-FII"/>
-                            <constraint firstItem="P7f-Vx-Icw" firstAttribute="centerX" secondItem="ycY-Fh-wxZ" secondAttribute="centerX" id="tnQ-J8-fEk"/>
                             <constraint firstItem="P7f-Vx-Icw" firstAttribute="centerX" secondItem="vxA-yW-OQL" secondAttribute="centerX" id="x5g-cs-d0d"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -100,7 +76,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-287" y="106"/>
+            <point key="canvasLocation" x="-266.39999999999998" y="96.7016491754123"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="UDQ-dh-jSj">
@@ -253,7 +229,4 @@
     <resources>
         <image name="Image" width="750" height="1334"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="ANQ-47-r1m"/>
-    </inferredMetricsTieBreakers>
 </document>
