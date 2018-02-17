@@ -37,7 +37,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="rwB-MW-ldG" kind="show" id="YQn-Fx-7dY"/>
+                                    <segue destination="rwB-MW-ldG" kind="presentation" id="ANQ-47-r1m"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P7f-Vx-Icw">
@@ -55,7 +55,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="rwB-MW-ldG" kind="show" id="Yty-Gt-mot"/>
+                                    <segue destination="rwB-MW-ldG" kind="presentation" id="Jan-2A-wi7"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxA-yW-OQL">
@@ -82,7 +82,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-287.19999999999999" y="115.59220389805098"/>
+            <point key="canvasLocation" x="-287" y="106"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="UDQ-dh-jSj">
@@ -101,9 +101,9 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Kp-gV-ZVg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="649" y="116"/>
+            <point key="canvasLocation" x="674" y="106"/>
         </scene>
-        <!--Item-->
+        <!--Buy-->
         <scene sceneID="nr3-O8-Raf">
             <objects>
                 <tableViewController id="lLN-ZZ-yUf" sceneMemberID="viewController">
@@ -112,13 +112,54 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="pou-f9-QtN">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="pou-f9-QtN" customClass="ListingTableViewCell" customModule="Swiper_iOS" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pou-f9-QtN" id="iHG-W4-BTj">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7wj-eJ-4Zw">
+                                            <rect key="frame" x="16" y="4" width="60" height="60"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bruin Plate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0n9-6V-fcO">
+                                            <rect key="frame" x="84" y="4" width="83" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$ 7.50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7q-jj-QGc">
+                                            <rect key="frame" x="276" y="4" width="47" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="QTY: 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kIp-97-W6J">
+                                            <rect key="frame" x="276" y="33" width="52" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5:30 PM, Tuesday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uA2-PT-xRY">
+                                            <rect key="frame" x="84" y="33" width="138" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="avatarImage" destination="7wj-eJ-4Zw" id="t24-Up-xyy"/>
+                                    <outlet property="locationLabel" destination="0n9-6V-fcO" id="Bv7-Mc-Yeo"/>
+                                    <outlet property="quantityLabel" destination="kIp-97-W6J" id="uHg-Rf-2QY"/>
+                                    <outlet property="timeDateLabel" destination="uA2-PT-xRY" id="mYN-gk-HpV"/>
+                                    <outlet property="unitPriceLabel" destination="o7q-jj-QGc" id="nUC-EI-Qux"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -126,13 +167,13 @@
                             <outlet property="delegate" destination="lLN-ZZ-yUf" id="rMo-Dj-gjT"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="UDS-zN-iTs"/>
+                    <tabBarItem key="tabBarItem" title="Buy" id="UDS-zN-iTs"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s5h-Ad-npi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1479" y="-340"/>
+            <point key="canvasLocation" x="1477.5999999999999" y="-340.47976011994007"/>
         </scene>
-        <!--Item-->
+        <!--Sell-->
         <scene sceneID="vaU-gv-G2l">
             <objects>
                 <tableViewController id="vPU-TG-z9S" sceneMemberID="viewController">
@@ -155,13 +196,13 @@
                             <outlet property="delegate" destination="vPU-TG-z9S" id="gbo-0H-BEp"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="tyg-SH-K0d"/>
+                    <tabBarItem key="tabBarItem" title="Sell" id="tyg-SH-K0d"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hBB-Em-2pH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1478" y="367"/>
         </scene>
-        <!--Item-->
+        <!--Me-->
         <scene sceneID="CgK-f2-d84">
             <objects>
                 <tableViewController id="xRF-xD-MIF" sceneMemberID="viewController">
@@ -184,7 +225,7 @@
                             <outlet property="delegate" destination="xRF-xD-MIF" id="dJm-Ob-p2Y"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="UoK-Ws-IGV"/>
+                    <tabBarItem key="tabBarItem" title="Me" id="UoK-Ws-IGV"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zCz-3f-2s9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -195,6 +236,6 @@
         <image name="Image" width="750" height="1334"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="YQn-Fx-7dY"/>
+        <segue reference="ANQ-47-r1m"/>
     </inferredMetricsTieBreakers>
 </document>
