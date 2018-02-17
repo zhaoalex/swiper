@@ -13,5 +13,6 @@ target 'Swiper_iOS' do
   pod 'FirebaseUI/Facebook'
   pod 'FBSDKCoreKit'
   pod 'FBSDKLoginKit'
+  pod ‘Parse/FacebookUtils’
 
 end
