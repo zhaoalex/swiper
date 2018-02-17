@@ -45,7 +45,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="Google Logon">
                                             <attributes>
-                                                <color key="NSColor" red="0.14575076124001307" green="1" blue="0.00048069992682864271" alpha="0.79963077910958902" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="NSColor" red="0.14575076124001307" green="1" blue="0.00048069992682864271" alpha="0.70267016267123283" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <font key="NSFont" size="23" name="Arial-BoldMT"/>
                                             </attributes>
                                         </fragment>
