@@ -9,6 +9,8 @@
 import UIKit
 import Firebase
 import FirebaseAuthUI
+import FBSDKCoreKit
+import FBSDKLoginKit
 
 class LoginViewController: UIViewController {
     //@IBOutlet weak var loginButton: FBSDKButton!
@@ -22,10 +24,11 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        //let loginButton = FBSDKLoginButton()
-        //loginButton.center = view.center
+
+        let loginButton = FBSDKLoginButton()
+        loginButton.center = view.center
         
-        //self.view.addSubview(loginButton)
+        self.view.addSubview(loginButton)
     }
 
     override func didReceiveMemoryWarning() {
