@@ -35,6 +35,16 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ycY-Fh-wxZ">
+                                <rect key="frame" x="130" y="399" width="114" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Facebook Logon"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7f-Vx-Icw">
+                                <rect key="frame" x="139" y="534" width="96" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Google Logon"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.69742492352065444" blue="0.81170685279187815" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -43,7 +53,57 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+            <point key="canvasLocation" x="-287" y="116"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="HLI-k7-eet">
+            <objects>
+                <viewController id="hWY-d4-Sa9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QG5-f2-JEX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="ffJ-pe-N7R"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="dRx-14-a1D"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rUL-Nz-945" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1506" y="465"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="UNR-Fu-aLP">
+            <objects>
+                <viewController id="GRE-zc-xXS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iyL-17-hQE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="0ah-fO-fqv"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="g75-3s-JPW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OeE-74-UNY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1506" y="-200"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="UDQ-dh-jSj">
+            <objects>
+                <tabBarController id="rwB-MW-ldG" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ye7-FP-WeC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="GRE-zc-xXS" kind="relationship" relationship="viewControllers" id="3cn-w8-G7i"/>
+                        <segue destination="hWY-d4-Sa9" kind="relationship" relationship="viewControllers" id="ZCn-iG-mqZ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Kp-gV-ZVg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="649" y="116"/>
         </scene>
     </scenes>
     <resources>
