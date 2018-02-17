@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="aVe-PN-ZRc">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="aVe-PN-ZRc">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ycY-Fh-wxZ">
@@ -80,17 +80,20 @@
                         <color key="backgroundColor" red="0.0" green="0.69742492352065444" blue="0.81170685279187815" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="vxA-yW-OQL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2DE-2y-bVS"/>
-                            <constraint firstItem="P7f-Vx-Icw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="93" id="7a3-Yr-fZM"/>
-                            <constraint firstItem="ycY-Fh-wxZ" firstAttribute="centerX" secondItem="vxA-yW-OQL" secondAttribute="centerX" id="JXg-id-q6d"/>
-                            <constraint firstItem="vxA-yW-OQL" firstAttribute="centerX" secondItem="aVe-PN-ZRc" secondAttribute="centerX" id="Mwe-s7-2HY"/>
-                            <constraint firstAttribute="bottom" secondItem="ycY-Fh-wxZ" secondAttribute="bottom" constant="250" id="QaZ-am-d7G"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="P7f-Vx-Icw" secondAttribute="bottom" constant="196" id="i8J-Wu-JHO"/>
-                            <constraint firstItem="vxA-yW-OQL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="j04-KF-fgE"/>
-                            <constraint firstItem="P7f-Vx-Icw" firstAttribute="top" secondItem="ycY-Fh-wxZ" secondAttribute="bottom" constant="8" symbolic="YES" id="qGU-SA-4va"/>
-                            <constraint firstItem="vxA-yW-OQL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="141" id="qfY-vY-v1m"/>
-                            <constraint firstItem="P7f-Vx-Icw" firstAttribute="centerX" secondItem="ycY-Fh-wxZ" secondAttribute="centerX" id="rbC-sM-h3f"/>
-                            <constraint firstItem="ycY-Fh-wxZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="83" id="z1a-G2-i3m"/>
+                            <constraint firstAttribute="bottom" secondItem="ycY-Fh-wxZ" secondAttribute="bottom" constant="250" id="0ru-oE-Pj4"/>
+                            <constraint firstItem="vxA-yW-OQL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="4U4-q2-IpC"/>
+                            <constraint firstItem="ycY-Fh-wxZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="83" id="FAp-bg-oVs"/>
+                            <constraint firstItem="P7f-Vx-Icw" firstAttribute="top" secondItem="ycY-Fh-wxZ" secondAttribute="bottom" constant="8" symbolic="YES" id="GTp-sU-aLQ"/>
+                            <constraint firstItem="aVe-PN-ZRc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="VDY-Ym-D7u"/>
+                            <constraint firstItem="P7f-Vx-Icw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="93" id="XnX-py-ckV"/>
+                            <constraint firstItem="vxA-yW-OQL" firstAttribute="centerX" secondItem="aVe-PN-ZRc" secondAttribute="centerX" id="YPb-fw-zW9"/>
+                            <constraint firstItem="aVe-PN-ZRc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Z5D-ol-iok"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="P7f-Vx-Icw" secondAttribute="bottom" constant="196" id="izn-sG-ybI"/>
+                            <constraint firstItem="aVe-PN-ZRc" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="kO3-aQ-b7K"/>
+                            <constraint firstItem="vxA-yW-OQL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rkK-vj-wbr"/>
+                            <constraint firstItem="vxA-yW-OQL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="141" id="t0A-5J-FII"/>
+                            <constraint firstItem="P7f-Vx-Icw" firstAttribute="centerX" secondItem="ycY-Fh-wxZ" secondAttribute="centerX" id="tnQ-J8-fEk"/>
+                            <constraint firstItem="P7f-Vx-Icw" firstAttribute="centerX" secondItem="vxA-yW-OQL" secondAttribute="centerX" id="x5g-cs-d0d"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
