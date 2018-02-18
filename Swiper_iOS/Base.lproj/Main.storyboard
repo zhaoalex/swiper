@@ -105,6 +105,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="Eif-dY-KYY">
+                            <rect key="frame" x="0.0" y="98" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="+ Post">
+                                        <attributes>
+                                            <font key="NSFont" size="24" name="Palatino-Roman"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </state>
+                            <connections>
+                                <segue destination="Inm-Iq-QWi" kind="show" id="yYA-Vt-W4s"/>
+                            </connections>
+                        </button>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="pou-f9-QtN" customClass="ListingTableViewCell" customModule="Swiper_iOS" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="70"/>
@@ -175,6 +191,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="HBl-PE-frh">
+                            <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="+ Post">
+                                        <attributes>
+                                            <font key="NSFont" size="24" name="Palatino-Roman"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </state>
+                            <connections>
+                                <segue destination="Inm-Iq-QWi" kind="show" id="mMc-fu-Ugg"/>
+                            </connections>
+                        </button>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="u6w-WN-0Gu">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
@@ -196,6 +228,21 @@
             </objects>
             <point key="canvasLocation" x="1478" y="367"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="vhp-XI-NVR">
+            <objects>
+                <viewController id="Inm-Iq-QWi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nUt-T6-feg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="EC6-kg-Asw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Sv-AH-bVj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2413" y="245"/>
+        </scene>
         <!--Me-->
         <scene sceneID="CgK-f2-d84">
             <objects>
@@ -204,6 +251,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="Gm8-fp-cuP">
+                            <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <attributedString key="attributedTitle">
+                                    <fragment content="+ Post">
+                                        <attributes>
+                                            <font key="NSFont" size="24" name="Palatino-Roman"/>
+                                            <font key="NSOriginalFont" size="24" name="Palatino-Roman"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                            </state>
+                            <connections>
+                                <segue destination="Inm-Iq-QWi" kind="show" id="uMk-D2-xah"/>
+                            </connections>
+                        </button>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Ka5-Hn-If4">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
@@ -229,4 +293,7 @@
     <resources>
         <image name="Image" width="750" height="1334"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="yYA-Vt-W4s"/>
+    </inferredMetricsTieBreakers>
 </document>
